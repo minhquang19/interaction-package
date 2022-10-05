@@ -1,0 +1,39 @@
+.interact {
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    span {
+        font-weight: normal;
+        font-size: $font_text_new;
+        line-height: 1.57;
+        color: $text_color;
+    }
+    img {
+        margin-right: 2px;
+        margin-top: -5px;
+        display: inline-block;
+    }
+    .wapper-like {
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        display: flex;
+        .like {
+            margin-right: 19px;
+            cursor: pointer;
+        }
+    }
+}
+
+.dislike {
+    cursor: pointer;
+    img {
+        margin-top: 6px;
+    }
+}
+
+.like {
+    cursor: pointer;
+}

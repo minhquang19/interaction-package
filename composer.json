@@ -1,0 +1,19 @@
+{
+    "name": "minhquang/interaction",
+    "description": "Interaction packge : like , dislike, view",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "minhquang19",
+            "email": "doanminhquangdev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Minhquang\\Interaction\\": "src/app"
+        }
+    }
+}
